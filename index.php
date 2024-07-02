@@ -12,13 +12,9 @@
         <div class="with-sidebar-wrapper">
             <section>
                 <div class="slider classbanner1">
-                    <ul>
-                        <li><img src="images/banner/banner-1.jpg" alt="Image 1"></li>
-                        <li><img src="images/banner/banner-2.jpg" alt="Image 2"></li>
-                        <li><img src="images/banner/banner-3.jpg" alt="Image 3"></li>
-                    </ul>
-                    <span class="prev" onclick="moveSlide(-1)">&#10094;</span>
-                    <span class="next" onclick="moveSlide(1)">&#10095;</span>
+                    <div><img src="images/banner/banner-1.jpg" alt="Image 1"></div>
+                    <div><img src="images/banner/banner-2.jpg" alt="Image 2"></div>
+                    <div><img src="images/banner/banner-3.jpg" alt="Image 3"></div>
                 </div>
                 <div class="slider2 classbanner2">
                     <ul>

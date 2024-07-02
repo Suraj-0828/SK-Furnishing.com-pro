@@ -133,6 +133,20 @@
 </script>
 
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.slider').slick({
+      autoplay: true,
+      autoplaySpeed: 2000,
+      prevArrow: '<span class="prev">&#10094;</span>',
+      nextArrow: '<span class="next">&#10095;</span>'
+    });
+  });
+</script>
+
 <script>
     let sliderIndex = 1;
     autoSlide();

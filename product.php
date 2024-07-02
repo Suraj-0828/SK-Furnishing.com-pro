@@ -418,7 +418,7 @@
                     </div>
                 </div>
             </div>
-            <div class="content-wrapper" id="roller-blind">
+            <div class="content-wrapper" id="Roller-blind">
                 <div class="greennature-content">
                     <!-- Sidebar With Content Section-->
                     <div class="with-sidebar-wrapper">
