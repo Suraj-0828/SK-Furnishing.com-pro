@@ -103,34 +103,6 @@
 
 
 <!-- banner slider script start -->
-<script>
-  let slideIndex = 1;
-  autoSlide();
-
-  function autoSlide() {
-    showSlides(slideIndex);
-    slideIndex++;
-    setTimeout(autoSlide, 2000); // Change slide every 2 seconds
-  }
-
-  function moveSlide(n) {
-    showSlides(slideIndex += n);
-  }
-
-  function showSlides(n) {
-    const slides = document.querySelectorAll('.slider ul li');
-    if (n > slides.length) {
-      slideIndex = 1;
-    }
-    if (n < 1) {
-      slideIndex = slides.length;
-    }
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = 'none';
-    }
-    slides[slideIndex - 1].style.display = 'block';
-  }
-</script>
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
